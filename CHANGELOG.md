@@ -9,3 +9,12 @@
 - Ensured the package is ready for distribution and publishing on `pub.dev`.
 
 
+## 1.1.0 (2024-12-05)
+
+- Added the `init` command to set up the project structure.
+    - Creates essential folders such as `assets`, `lib/core`, `lib/data/network`, and `lib/widgets/common`.
+    - Initializes core files, API-related files, and common widgets.
+    - Prints a success message upon completion.
+    - Generated app name is now copied to clipboard.
+- Improved error handling and logging for better CLI usability.
+- Minor bug fixes and optimizations.
